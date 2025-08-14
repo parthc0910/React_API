@@ -63,7 +63,7 @@ const App = () => {
           </div>
 
           <section className="all-movies bg-transparent max-w-7xl mx-auto px-4 py-8">
-            <h2 className="text-center text-5xl md:text-3xl font-bold text-white mb-6">Trending Movies</h2>
+            <h2 className="p-4 opacity-80 bg-white rounded-lg bg-text-center text-center text-5xl md:text-3xl font-bold text-gray-800 mb-6">Trending Movies</h2>
             {errorMessage && <p className="error">{errorMessage}</p>}
             {movies.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">

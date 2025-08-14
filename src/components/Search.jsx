@@ -6,7 +6,7 @@ const Search = ({ searchTerm, setSearchTerm }) => {
     <div className="w-5/6 flex justify-center my-6">
       <div className="flex items-center bg-white/80 backdrop-blur-md rounded-full shadow-lg px-4 py-2 w-full max-w-md">
         <img
-          src="/search.svg"
+          src="./public/search.svg"
           alt="Search Icon"
           className="w-6 h-6 opacity-60"
         />

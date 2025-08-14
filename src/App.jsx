@@ -53,7 +53,7 @@ const App = () => {
 
         <section
           className="bg-fixed bg-cover bg-center min-h-screen"
-          style={{ backgroundImage: `url('./public/background.png')` }}
+          style={{ backgroundImage: `url('./background.png')` }}
         >
           <div className="relative flex flex-col items-center justify-center py-12 text-center">
             <h1 className="text-white text-4xl md:text-5xl font-bold mb-6">Find Movies</h1>

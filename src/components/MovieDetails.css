@@ -1,0 +1,87 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.movie-poster {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.movie-release,
+.movie-rating,
+.movie-overview {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.movie-overview {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .movie-details {
+    flex-direction: row;
+  }
+
+  .movie-poster {
+    width: 200px;
+    margin-right: 20px;
+  }
+
+  .movie-info {
+    flex: 1;
+  }
+}
